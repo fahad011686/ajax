@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+    color: thistle;
+}
+
+p {
+    max-width: 50%;
+    font-size: 16px;
+}
+
+img {
+    float: left; 
+    margin: 0px 15px 15px 0px;
+    width="100";
+}
+
+#buttonList {
+    padding:20px;
+    border:2px solid white;
+    margin:5px;
+}
+
+#addButton, #delButton   {
+    padding:5px;
+    border:0.1em solid #000000;
+    margin:0 0.2em 0.2em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    font-weight:300;
+    color:black;
+    text-shadow: 0 0.04em 0.04em greenyellow);
+    background-color: #ededed;
+    text-align:center;
+    transition: all 0.5s;
+    }
+
+#delButton:hover {
+    background: red;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.5s ease 0s;
+                }

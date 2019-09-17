@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Ajax Assignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
@@ -11,19 +13,24 @@
 
     <!-- button maker -->
     <div class="container">
-        <h1>GIPHY Search</h1>
+        <img src="logo.png">
+        <h1>Search Buttons</h1>
         <p>In this assignment, I am using the GIPHY API to make a dynamic web page that populates with gifs of your
             choice. To finish this task, I called the GIPHY API and used JavaScript and jQuery to change the HTML of
-            the site.</p>
-
-        <div id="buttonList"></div>
-
+            the site. Here are some starter buttons, feel free to add any topics you'd like!</p>
+    </div>
+    <div>
         <form id="buttonForm">
-            <input type="text" id="buttonInput"><br>
+                <input type="text" id="buttonInput">
+<br>
             <input id="addButton" type="submit" value="Add your own">
             <!-- Reset -->
-            <input id="delButton" type="submit" value="Clear">
+            <input id="delButton" type="submit" value="Reset"><br><br>
+
         </form>
+    </div>
+    
+    <div id="buttonList"></div>
 
 
 
@@ -31,13 +38,15 @@
 
 
 
+    <div id="gifsDisplay">
+        <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe
+                src="https://giphy.com/embed/o0vwzuFwCGAFO" width="50%" height="50%" style="position:absolute"
+                frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+        <p><a href="https://giphy.com/gifs/cat-hacker-webs-o0vwzuFwCGAFO">via GIPHY</a></p>
+    </div>
 
-
-
-        <div id="gifsDisplay"></div>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js.js"></script>
 </body>
 
 </html>
