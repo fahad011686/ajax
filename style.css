@@ -16,9 +16,10 @@ img {
 }
 
 #buttonList {
-    padding:20px;
+    width: 50%;
+    padding:15px;
     border:2px solid white;
-    margin:5px;
+    max-width: 50%;
 }
 
 #addButton, #delButton   {
@@ -44,3 +45,8 @@ img {
     box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
     transition: all 0.5s ease 0s;
                 }
+
+#gifsDisplay {
+    width: 70%;
+    padding: 10px;
+  }
